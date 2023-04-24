@@ -1,0 +1,90 @@
+body {
+    background-color: #cd853f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#eye-left {
+    width: 200px;
+    height: 200px;
+    background-color: #191310;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#nose {
+    width: 1000px;
+    height: auto;
+    background-color: #544a45;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+
+#nose a {
+    text-decoration: none;
+    color: #d1d1d1;
+    transform: translateY(-50px);
+}
+
+#eye-right {
+    width: 200px;
+    height: 200px;
+    background-color: #191310;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    /*transition: font-size 500ms;*
+     */
+    color: #ffffff;
+}
+
+#funfact1, #funfact2, #funfact3 {
+    font-size: 0;
+    animation-name: funfact-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#funfact1 {
+    animation-delay: 0s;
+}
+
+#funfact2 {
+    animation-delay: 5s;
+}
+
+#funfact3 {
+    animation-delay: 10s;
+}
+
+@keyframes funfact-animation {
+    0% {
+        font-size: 0;
+    }
+    33.3333% {
+        font-size: 1rem;
+    }
+    66.6666% {
+        font-size: 0;
+    }
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d3c3bb;
+    margin-top: 15%;
+}
