@@ -21,14 +21,21 @@ nav {
     text-align: center;
 }
 
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 /* Links farbig und nicht mehr unterstrichen */
 a:link, a:visited {
-    color: white;
+    color: #5a330c;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: #f8b678;
+    color: #80552b;
 }
 
 /* Pfeile zum navigieren */
@@ -41,57 +48,35 @@ a:hover, a:active {
     display: inline-block;
 }
 
-#eye-left {
+#links-left {
     width: 200px;
-    height: 200px;
-    background-color: #191310;
-    border-radius: 100%;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 5%;
     text-align: center;
     font-size: 1.5rem;
 }
 
-#nose {
-    width: 1000px;
-    height: auto;
-    background-color: #76675f;
-    border-radius: 20px;
-    font-size: 1.5rem;
-}
-
-#nose a {
-    text-decoration: none;
-    color: #d1d1d1;
-
-}
-
-#eye-right {
+#links-right {
     width: 200px;
-    height: 200px;
-    background-color: #191310;
-    border-radius: 100%;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 5%;
     font-size: 1.5rem;
     color: #ffffff;
 }
 
-#zaehne {
-    display: flex;
-    justify-content: space-around;
+#table {
+    width: 1000px;
+    height: auto;
+    background-color: #76675f;
+    border-radius: 20px;
+    border: [2rem] [dashed] [black];
+    font-size: 1.5rem;
 }
 
-#zahn-right {
-    width: 100px;
-    height: 200px;
-    background-color: #ffffff;
-    border-radius: 3%;
-    margin-left: 0.1%;
-    margin-right: 40%;
-}
+#table a {
+    text-decoration: none;
+    color: #d1d1d1;
 
-#zahn-left {
-    width: 100px;
-    height: 200px;
-    background-color: #ffffff;
-    border-radius: 3%;
-    margin-right: 0.1%;
-    margin-left: 40%;
 }
