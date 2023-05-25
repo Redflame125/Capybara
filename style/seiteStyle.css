@@ -46,37 +46,37 @@ a:hover, a:active {
 
 .arrow-right span {
     display: inline-block;
+    margin-left: 5px;
 }
 
 #links-left {
-    width: 200px;
+    width: 210px;
     height: auto;
     background-color: #b87b3e;
-    border-radius: 5%;
+    border-radius: 20px;
     text-align: center;
     font-size: 1.5rem;
+    border: thin solid black;
 }
 
 #links-right {
-    width: 200px;
+    width: 210px;
     height: auto;
     background-color: #b87b3e;
-    border-radius: 5%;
+    border-radius: 20px;
     font-size: 1.5rem;
     color: #ffffff;
+    border: thin solid black;
 }
 
-#table {
+#text {
     width: 1000px;
     height: auto;
-    background-color: #76675f;
+    background-color: #b87b3e;
     border-radius: 20px;
-    border: [2rem] [dashed] [black];
+    border-color: #5a330c;
+    border: 0.5rem outset #5a330c;
     font-size: 1.5rem;
+    align-items: center;
 }
 
-#table a {
-    text-decoration: none;
-    color: #d1d1d1;
-
-}
