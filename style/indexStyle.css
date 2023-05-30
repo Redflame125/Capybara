@@ -13,6 +13,7 @@ body {
 header {
     font-size: 3rem;
     text-align: center;
+    color : #5a330c;
 }
 
 nav {
@@ -148,10 +149,11 @@ a:hover, a:active {
 }
 
 footer{
-    text-align: left;
+    text-align: center;
     background-color: #877B69;
-    margin-top: 20%;
+    margin-top: 10%;
     border: thin solid #f8b678;
+    border-radius: 10px;
 }
 
 #punkte{

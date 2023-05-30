@@ -22,6 +22,7 @@ nav {
 }
 
 article {
+    margin-top: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,31 +45,6 @@ a:hover, a:active {
     margin-right: 5px; /* Abstand zum Text */
 }
 
-.arrow-right span {
-    display: inline-block;
-    margin-left: 5px;
-}
-
-#links-left {
-    width: 210px;
-    height: auto;
-    background-color: #b87b3e;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 1.5rem;
-    border: thin solid rgb(57, 27, 10);
-}
-
-#links-right {
-    width: 210px;
-    height: auto;
-    background-color: #b87b3e;
-    border-radius: 20px;
-    font-size: 1.5rem;
-    color: #ffffff;
-    border: thin solid rgb(57, 27, 10);
-}
-
 #links-center {
     width: auto;
     height:  auto;
@@ -81,22 +57,28 @@ a:hover, a:active {
 }
 
 #text {
+    align-self: center;
     width: 1000px;
     height: auto;
     background-color: #b87b3e;
     border-radius: 20px;
-    border-color: #5a330c;
     border: 0.5rem outset #5a330c;
     font-size: 1.5rem;
     align-items: center;
 }
 
+table {
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    border: thick solid #5a330c;
+}
+
 footer{
-    font-size: 1.25rem;
-    width: auto;
-    text-align: left;
+    text-align: center;
     background-color: #877B69;
     margin-top: 20%;
+    border: thin solid #f8b678;
+    border-radius: 10px;
 }
 
 #punkte{
