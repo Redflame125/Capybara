@@ -23,6 +23,13 @@ nav {
     text-align: center;
 }
 
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 /* Links farbig und nicht mehr unterstrichen */
 a:link, a:visited {
     color: white;
@@ -58,9 +65,12 @@ a:hover, a:active {
 #nose {
     width: 1000px;
     height: auto;
-    background-color: #76675f;
+    background-color: #877B69 ;
+    border-color: #5a330c;
+    border-radius: 1,5px;
     border-radius: 20px;
     font-size: 1.5rem;
+    border: thin solid black;
 }
 
 
@@ -137,8 +147,13 @@ a:hover, a:active {
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    background-color: #d3c3bb;
-    margin-top: 15%;
+footer{
+    text-align: left;
+    background-color: #877B69;
+    margin-top: 20%;
+    border: thin solid #f8b678;
+}
+
+#punkte{
+    list-style-type: none;
 }
