@@ -1,0 +1,93 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #cd853f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    color: #5a330c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* Links farbig und nicht mehr unterstrichen */
+a:link, a:visited {
+    color: #412603;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #50360b;
+}
+
+/* Pfeile zum navigieren */
+.arrow-left::before {
+    content: "\2190";
+}
+
+#links-center {
+    width: auto;
+    height:  auto;
+    background-color: #b87b3e;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    word-spacing: 10px;
+    white-space: nowrap;
+    border: thin solid rgb(57, 27, 10);
+}
+
+#text {
+    align-self: center;
+    width: 1000px;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 20px;
+    border: 0.5rem outset #5a330c;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+table {
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    border: thick solid #5a330c;
+}
+
+footer{
+    text-align: center;
+    background-color: #877B69;
+    margin-top: 20%;
+    border: thin solid #f8b678;
+    border-radius: 10px;
+}
+
+#punkte{
+    list-style-type: none;
+}
+
+.heading {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}

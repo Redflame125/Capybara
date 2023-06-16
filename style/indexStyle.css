@@ -43,10 +43,6 @@ a:hover, a:active {
 }
 
 /* Pfeil zum navigieren */
-.arrow-left::before {
-    content: "\2190";
-    margin-right: 5px; /* Abstand zum Text */
-}
 
 .arrow-right span {
     display: inline-block;
