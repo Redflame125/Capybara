@@ -21,14 +21,22 @@ nav {
     text-align: center;
 }
 
+article {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 /* Links farbig und nicht mehr unterstrichen */
 a:link, a:visited {
-    color: white;
+    color: #412603;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: #f8b678;
+    color: #50360b;
 }
 
 /* Pfeile zum navigieren */
@@ -37,61 +45,42 @@ a:hover, a:active {
     margin-right: 5px; /* Abstand zum Text */
 }
 
-.arrow-right span {
-    display: inline-block;
-}
-
-#eye-left {
-    width: 200px;
-    height: 200px;
-    background-color: #191310;
-    border-radius: 100%;
-    text-align: center;
+#links-center {
+    width: auto;
+    height:  auto;
+    background-color: #b87b3e;
+    border-radius: 5px;
     font-size: 1.5rem;
+    word-spacing: 10px;
+    white-space: nowrap;
+    border: thin solid rgb(57, 27, 10);
 }
 
-#nose {
+#text {
+    align-self: center;
     width: 1000px;
     height: auto;
-    background-color: #76675f;
+    background-color: #b87b3e;
     border-radius: 20px;
+    border: 0.5rem outset #5a330c;
     font-size: 1.5rem;
+    align-items: center;
 }
 
-#nose a {
-    text-decoration: none;
-    color: #d1d1d1;
-
-}
-
-#eye-right {
-    width: 200px;
-    height: 200px;
-    background-color: #191310;
-    border-radius: 100%;
+table {
     font-size: 1.5rem;
-    color: #ffffff;
+    border-collapse: collapse;
+    border: thick solid #5a330c;
 }
 
-#zaehne {
-    display: flex;
-    justify-content: space-around;
+footer{
+    text-align: center;
+    background-color: #877B69;
+    margin-top: 20%;
+    border: thin solid #f8b678;
+    border-radius: 10px;
 }
 
-#zahn-right {
-    width: 100px;
-    height: 200px;
-    background-color: #ffffff;
-    border-radius: 3%;
-    margin-left: 0.1%;
-    margin-right: 40%;
-}
-
-#zahn-left {
-    width: 100px;
-    height: 200px;
-    background-color: #ffffff;
-    border-radius: 3%;
-    margin-right: 0.1%;
-    margin-left: 40%;
+#punkte{
+    list-style-type: none;
 }

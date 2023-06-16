@@ -2,6 +2,9 @@
     display: none;
 }
 
+
+
+
 body {
     background-color: #cd853f;
     font-family: 'Roboto', sans-serif;
@@ -10,6 +13,7 @@ body {
 header {
     font-size: 3rem;
     text-align: center;
+    color : #5a330c;
 }
 
 nav {
@@ -20,10 +24,18 @@ nav {
     text-align: center;
 }
 
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 /* Links farbig und nicht mehr unterstrichen */
 a:link, a:visited {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 a:hover, a:active {
@@ -38,6 +50,7 @@ a:hover, a:active {
 
 .arrow-right span {
     display: inline-block;
+    margin-left: 5px;
 }
 
 #eye-left {
@@ -53,9 +66,12 @@ a:hover, a:active {
 #nose {
     width: 1000px;
     height: auto;
-    background-color: #76675f;
+    background-color: #877B69 ;
+    border-color: #5a330c;
+    border-radius: 1,5px;
     border-radius: 20px;
     font-size: 1.5rem;
+    border: thin solid black;
 }
 
 
@@ -70,7 +86,6 @@ a:hover, a:active {
     height: 200px;
     background-color: #191310;
     border-radius: 100%;
-    font-size: 1.5rem;
     color: #ffffff;
 }
 
@@ -133,8 +148,14 @@ a:hover, a:active {
     text-align: center;
 }
 
-footer {
+footer{
     text-align: center;
-    background-color: #d3c3bb;
-    margin-top: 15%;
+    background-color: #877B69;
+    margin-top: 10%;
+    border: thin solid #f8b678;
+    border-radius: 10px;
+}
+
+#punkte{
+    list-style-type: none;
 }
