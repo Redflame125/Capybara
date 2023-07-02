@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #cd853f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #035800;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Text außerhalb des Cursers nicht sichtbar */
+    border-right: .15em solid orange; /* Blinkender "Curser" */
+    white-space: nowrap; /* Text nur in eine Zeile */
+    letter-spacing: .1em; /* Abstand der Buchstaben */
+    animation: typing 5s steps(40, end) infinite, /* Typewriteranimation läuft unendlich */
+    blink-caret .75s step-end infinite; /* Curser läuft unendlich */
+}
+
+/* Typewriteranimation */
+@keyframes typing {
+    0% { width: 0; } /* Text unsichtbar */
+    25% { width: 0; }
+    50% { width: 100%; } /* Text sichtbar */
+    75% { width: 100%; }
+    100% { width: 0; } /* Text wieder unsichtbar */
+}
+
+/* Blinkender Curser */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+}
+
+#start {
+    margin-top: 5%;
+    background-color: #5f330d;
+}
