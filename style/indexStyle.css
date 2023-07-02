@@ -60,7 +60,7 @@ a:hover, a:active {
 #nose {
     width: 1000px;
     height: auto;
-    background-color: #877B69;
+    background-color: #bea98b;
     border-radius: 20px;
     font-size: 1.5rem;
     border: thin solid black;
@@ -99,7 +99,7 @@ a:hover, a:active {
 
 #funfact3 {
     animation-delay: 10s;
-}
+}    
 
 @keyframes funfact-animation {
     0% {
@@ -142,7 +142,7 @@ a:hover, a:active {
 
 footer {
     text-align: center;
-    background-color: #877B69;
+    background-color: #bea98b;
     margin-top: 10%;
     border: thin solid #f8b678;
     border-radius: 10px;
