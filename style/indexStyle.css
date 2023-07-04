@@ -155,3 +155,21 @@ footer {
 #punkte {
     list-style-type: none;
 }
+
+/* Damit der Footer nicht weird in handy Ansicht ist */
+@media (orientation: portrait), (max-width: 600px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+        margin-bottom: 1px;
+        bottom: 0;
+    }
+}
