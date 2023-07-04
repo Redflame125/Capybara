@@ -3,6 +3,8 @@
 }
 
 
+
+
 body {
     background-color: #cd853f;
     font-family: 'Roboto', sans-serif;
@@ -11,7 +13,7 @@ body {
 header {
     font-size: 3rem;
     text-align: center;
-    color: #5a330c;
+    color : #5a330c;
 }
 
 nav {
@@ -60,7 +62,7 @@ a:hover, a:active {
 #nose {
     width: 1000px;
     height: auto;
-    background-color: #877B69;
+    background-color: #877B69 ;
     border-radius: 20px;
     font-size: 1.5rem;
     border: thin solid black;
@@ -140,18 +142,17 @@ a:hover, a:active {
     text-align: center;
 }
 
-footer {
+footer{
     text-align: center;
     background-color: #877B69;
     margin-top: 10%;
     border: thin solid #f8b678;
     border-radius: 10px;
 }
-
 #footer a {
     color: #412603;
 }
 
-#punkte {
+#punkte{
     list-style-type: none;
 }

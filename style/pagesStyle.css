@@ -66,15 +66,9 @@ a:hover, a:active {
     align-items: center;
 }
 
-table {
-    font-size: 1.5rem;
-    border-collapse: collapse;
-    border: thick solid #5a330c;
-}
-
 footer{
     text-align: center;
-    background-color: #877B69;
+    background-color: #bea98b;
     margin-top: 20%;
     border: thin solid #f8b678;
     border-radius: 10px;
@@ -91,3 +85,90 @@ footer{
     margin-block-end: 0.83em;
     font-weight: bold;
 }
+
+img {
+    width: 650px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.memes-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    color: #f8b678;
+    justify-content: center;
+}
+  
+  .meme {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #5a330c;
+    border: 2px solid #a76707; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(236, 139, 70, 0.1);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .meme img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .meme:hover img {
+    transform: scale(1.1);
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cd802d;
+    color: #2e1a06;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .meme:hover .caption {
+    opacity: 1;
+  }
+
+  table {
+    font-size: large;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #6b2f04;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 3px solid #6b2f04;
+  }
+  
+  th {
+    background-color: #6b2f04;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b26425;
+  }
+  
+  tr:hover {
+    background-color: #ed9238;
+  }
+  
