@@ -69,9 +69,27 @@ a:hover, a:active {
 footer{
     text-align: center;
     background-color: #bea98b;
-    margin-top: 20%;
+    margin-top: 10%;
     border: thin solid #f8b678;
     border-radius: 10px;
+}
+
+/* Damit der Footer nicht weird in handy Ansicht ist */
+@media (orientation: portrait), (max-width: 600px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+        margin-bottom: 1px;
+        bottom: 0;
+    }
 }
 
 #punkte{
@@ -100,7 +118,7 @@ img {
     color: #f8b678;
     justify-content: center;
 }
-  
+
   .meme {
     width: 300px;
     margin: 10px;
@@ -171,4 +189,3 @@ img {
   tr:hover {
     background-color: #ed9238;
   }
-  
