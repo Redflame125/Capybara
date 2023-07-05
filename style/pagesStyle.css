@@ -39,11 +39,6 @@ a:hover, a:active {
     color: #50360b;
 }
 
-/* Pfeile zum navigieren */
-.arrow-left::before {
-    content: "\2190";
-}
-
 #links-center {
     width: auto;
     height:  auto;
